@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+   <head>
+      <title>Municipios</title>
+      <link rel="stylesheet" type="text/css"
+	href="https://cdn.datatables.net/v/bs4/dt-1.10.25/datatables.min.css" />
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
+   </head>
+   <body>
+      <table
+         class="table table-sm table-bordered table-striped table-condensed table-responsive-sm"
+         id="tablaIndex">
+         <thead class="thead-dark">
+            <tr>
+               <!-- <th style="width:20px">Id</th> -->
+               <th style="width: 30px">Codigo Departamento</th>
+               <th style="width: 25px">Codigo Municipio</th>
+               <th style="width: 15px">Nombre Departamento</th>
+               <th style="width: 300px">Nombre Municipio</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr th:each="objData: ${ListDtoMunDep}">
+               <!-- <td th:text="${objData.iprevlistpasosId}" /> -->
+               <td th:text="${objData.id_depa}" />
+               <td th:text="${objData.id_mun}" />
+               <td th:text="${objData.nom_depa}" />
+               <td th:text="${objData.nom_mun}" />
+
+            </tr>
+         </tbody>
+      </table>
+   </body>
+</html>

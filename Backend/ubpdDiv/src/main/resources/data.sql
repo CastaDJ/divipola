@@ -1,0 +1,21 @@
+insert into departamento (id,nombre) values (5,"ANTIOQUIA");
+
+insert into municipio (id,nombre_mun,id_dep) values (5001,"MEDELLÍN",5);
+insert into municipio (id,nombre_mun,id_dep) values (5002,"ABEJORRAL",5);
+insert into municipio (id,nombre_mun,id_dep) values (5004,"ABRIAQUÍ",5);
+insert into municipio (id,nombre_mun,id_dep) values (5021,"ALEJANDRÍA",5);
+insert into municipio (id,nombre_mun,id_dep) values (5030,"AMAGÁ",5);
+insert into municipio (id,nombre_mun,id_dep) values (5031,"AMALFI",5);
+insert into municipio (id,nombre_mun,id_dep) values (5034,"ANDES",5);
+insert into municipio (id,nombre_mun,id_dep) values (5036,"ANGELÓPOLIS",5);
+insert into municipio (id,nombre_mun,id_dep) values (5038,"ANGOSTURA",5);
+insert into municipio (id,nombre_mun,id_dep) values (5040,"ANORÍ",5);
+insert into municipio (id,nombre_mun,id_dep) values (5042,"SANTA FÉ DE ANTIOQUIA",5);
+insert into municipio (id,nombre_mun,id_dep) values (5044,"ANZÁ",5);
+insert into municipio (id,nombre_mun,id_dep) values (5045,"APARTADÓ",5);
+insert into municipio (id,nombre_mun,id_dep) values (5051,"ARBOLETES",5);
+insert into municipio (id,nombre_mun,id_dep) values (5055,"ARGELIA",5);
+insert into municipio (id,nombre_mun,id_dep) values (5059,"ARMENIA",5);
+insert into municipio (id,nombre_mun,id_dep) values (5079,"BARBOSA",5);
+insert into municipio (id,nombre_mun,id_dep) values (5086,"BELMIRA",5);
+insert into municipio (id,nombre_mun,id_dep) values (5088,"BELLO",5);
